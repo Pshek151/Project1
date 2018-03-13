@@ -1,0 +1,41 @@
+var a, b: integer
+
+var zmiennalog : Boolean
+
+zwirze:=b+c+f+9;
+
+writeln('Podaj liczbe a ');
+readln(a);
+
+
+for a:=100 to down 3 do 
+	begin
+		writeln('a wynosi',a);
+	end; 
+
+for c:=1 to 40 do 
+	begin 
+		readln(e);
+		policz(c, e);
+	end;
+
+if zwierze<>false then 
+ begin 
+	writeln('istnieje');
+ end; 
+  else 
+	writeln('takie zwierze nie istnieje');
+
+
+case (liczba) of 
+	1:	writeln('jeden');
+	2:	writeln('dwa');
+	else
+	writeln('za duzo');
+end;
+
+while c>=0 do 
+	begin
+	writeln('zaraz koniec');
+	 c:=c-1;
+	end;

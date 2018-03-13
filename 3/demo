@@ -1,0 +1,13 @@
+#!/bin/bash
+
+printf "\n"
+printf "ZADANIE:\n" 
+printf "    Translator podzbioru jednego języka programowania na inny PASCAL na C++:\n\n"
+printf "Konstrukcje:\ndeklaracja zmiennych, \nwyrażenie if, \npętla for, \npętla while, \nwywołanie funkcji"
+printf 
+printf "Przykładowe wykonanie programu:\n\n"
+printf "plik test.txt zawiera podzbior wyrazen w jezyku Pascal : "
+cat test.txt
+printf "\n\n"
+printf "WYNIK ZADANIA:\n\n"
+cat test.txt | ./a.out

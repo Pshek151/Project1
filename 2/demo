@@ -1,0 +1,15 @@
+#!/bin/bash
+
+printf "\n"
+printf "ZADANIE:\n" 
+printf "    Korektor niechlujnej polszczyzny:\n\n"
+printf "błędy ortograficzne, brak wielkiej litery, brak znaków diakrytycznych. Słownik 2 000 000 słów (plik Slownik1.txt). Korektor wypisuje zdanie o najmniejszej wadze. Przykładowe zamiany np:\n ż na Ż (waga 1),\n ch na h (waga 1),\n ji na ii (waga 1),\n e na ę (waga 1),\n Ą na a (waga 2),\n rz na Ż (waga 2)\n\n"
+printf "Przykładowe wykonanie programu:\n\n"
+printf "Przykład. \nw słowniku: Chruszczow/Chruszczów:\nInput: hruszczow \n"
+echo hruszczow | thraxrewrite-tester --noutput=1 --far=corrector.far --rules=corrector | cut -d ' ' -f 3-6
+
+
+
+
+
+

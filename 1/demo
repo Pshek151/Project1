@@ -1,0 +1,10 @@
+#!/bin/bash
+
+printf "\n"
+printf "ZADANIE:\n" 
+printf "     zadanie 3 Program ekstrahujący "ładny" tekst w języku polskim ze strony internetowej\n\n"
+printf printf "PRZYKŁADY URUCHOMIENIA PROGRAMU:\n"
+printf "     ruby program.rb https://www.pyszne.pl/n"
+printf "Przykład działania programu dla strony https://www.pyszne.pl/e \n\n"
+printf "\n=================================\nWYNIK:\n=================================\n\n"
+ruby program.rb https://www.pyszne.pl/
